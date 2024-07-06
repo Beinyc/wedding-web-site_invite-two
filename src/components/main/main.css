@@ -1,0 +1,111 @@
+.main {
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.main__permission {
+    max-width: 875px;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+.main__title {
+    color: #a78112;
+    font-size: 33px;
+    font-family: 'CormorantGaramond', Arial, sans-serif;
+    line-height: 1.55;
+    font-weight: 700;
+    background-position: center center;
+    border-color: transparent;
+}
+
+.main__paragraph-up {
+    color: #000000;
+    font-size: 18px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    line-height: 1.55;
+    font-weight: 300;
+    background-position: center center;
+    border-color: transparent;
+    margin: 0;
+    padding-bottom: 135px;
+}
+
+.main__flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__paragraph-date {
+    color: #a78112;
+    font-size: 22px;
+    font-family: 'CormorantGaramond', Arial, sans-serif;
+    line-height: 1.55;
+    font-weight: 700;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.main__paragraph-august {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    line-height: 1.55;
+    font-weight: 300;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.main__image-calendar {
+    width: 282px;
+    height: 179px;
+}
+
+.main__image-heart {
+    height: 35px;
+    width: 35px;
+    position: relative;
+    top: -139px;
+    left: 120px;
+    animation: heartbeat 1s infinite;
+}
+
+.main__imaig-cloup {
+    width: 458px;
+    object-fit: cover;
+    height: 458px;
+    border-width: 1px;
+    border-radius: 0px;
+    background-color: #ffffff;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-color: #8a8888;
+    border-style: solid;
+}
+
+@keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    75% {
+        transform: scale(1.1);
+    }
+}

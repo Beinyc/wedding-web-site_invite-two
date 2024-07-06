@@ -15,11 +15,11 @@ export default function Header() {
           <div className="header__cards">
             <p className="header__hello-parafraph">Рады пригласить вас на нашу свадьбу!</p>
             <h1 className="header__title">
-              Михаил&
+              Никита&
               <br />
-              Алиса
+              Виктория
             </h1>
-            <p className="header__date-paragraph">28/09/24</p>
+            <p className="header__date-paragraph">10/08/24</p>
           </div>
         </div>
       </div>
