@@ -1,0 +1,193 @@
+.place {
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    height: 133vh;
+}
+
+.place__permission {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.place__image-bouquet {
+    background-image: url(../../images/bouquet.jpg);
+    position: relative;
+    width: 960px;
+    height: 450px;
+    object-fit: cover;
+    border-width: 1px;
+    background-color: #ffffff;
+    background-position: 0.000% 63.118%;
+    background-size: 126.200%;
+    background-repeat: no-repeat;
+    border-color: #8a8888;
+    border-style: solid;
+}
+
+.place__image-table {
+    background-image: url(../../images/table.jpg);
+    width: 960px;
+    height: 450px;
+    object-fit: cover;
+    border-width: 1px;
+    background-color: #ffffff;
+    background-position: 0.000% 63.118%;
+    background-size: 126.200%;
+    background-repeat: no-repeat;
+    border-color: #8a8888;
+    border-style: solid;
+}
+
+.place__cart-registration {
+    width: 400px;
+    height: 505px;
+    border-width: 1px;
+    border-radius: 0px;
+    background-color: #ffffff;
+    background-position: center center;
+    border-color: #8a8888;
+    border-style: solid;
+    box-shadow: 0px 0px 10px 0px rgba(89, 88, 88, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: -421px;
+    left: 53px;
+}
+
+.place__cart-registration-down {
+    width: 400px;
+    height: 505px;
+    border-width: 1px;
+    border-radius: 0px;
+    background-color: #ffffff;
+    background-position: center center;
+    border-color: #8a8888;
+    border-style: solid;
+    box-shadow: 0px 0px 10px 0px rgba(89, 88, 88, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: -421px;
+    left: 494px;
+}
+
+.place__cards-table {
+    width: 400px;
+    height: 505px;
+    border-width: 1px;
+    border-radius: 0px;
+    background-color: #ffffff;
+    background-position: center center;
+    border-color: #8a8888;
+    border-style: solid;
+    box-shadow: 0px 0px 10px 0px rgba(89, 88, 88, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: -436px;
+    left: 833px;
+}
+
+.place__cards-positions {
+    height: 0;
+    padding-bottom: 700px;
+}
+
+.place__cart-holiday {
+    border-width: 1px;
+    border-radius: 0px;
+    background-color: #ffffff;
+    background-position: center center;
+    border-color: #8a8888;
+    border-style: solid;
+    box-shadow: 0px 0px 10px 0px rgba(89, 88, 88, 0.6);
+    width: 400px;
+    height: 505px;
+}
+.place__map-holiday {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    border-width: 1px;
+    background-color: #f5f5f5;
+    background-position: center center;
+    border-color: #8a8888;
+    border-style: solid;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.place__cart-title {
+    color: #a78112;
+    font-size: 28px;
+    font-family: 'CormorantGaramond', Arial, sans-serif;
+    line-height: 1;
+    font-weight: 700;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.place__holiday-title {
+    color: #a78112;
+    font-size: 28px;
+    font-family: 'CormorantGaramond', Arial, sans-serif;
+    line-height: 1;
+    font-weight: 700;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.place__cart-paragraph_up {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    line-height: 30px;
+    font-weight: 300;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.place__holiday-paragrapg_up {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    line-height: 30px;
+    font-weight: 300;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.place__map-registration {
+    text-decoration: none;
+    display: flex;
+    width: 260px;
+    height: 60px;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    border-width: 1px;
+    background-color: #f5f5f5;
+    background-position: center center;
+    border-color: #8a8888;
+    border-style: solid;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
