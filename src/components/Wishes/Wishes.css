@@ -1,0 +1,41 @@
+.wishes__permissions {
+    margin: 0 auto;
+    max-width: 1050px;
+    margin-bottom: 150px;
+    margin-top: 60px;
+}
+
+.wishes__title {
+    color: #a78112;
+    font-size: 42px;
+    font-family: 'CormorantGaramond', Arial, sans-serif;
+}
+
+.wishes__flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.wishes__cart {
+    width: 280px;
+}
+
+.wishes__paragraph {
+    color: #000000;
+    font-size: 18px;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.wishes__span {
+    font-weight: 700;
+}
+
+.wishes__cart-center {
+    width: 280px;
+    border-left: solid 1px;
+    border-right: solid 1px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
