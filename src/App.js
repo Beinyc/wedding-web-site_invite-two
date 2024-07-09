@@ -12,19 +12,22 @@ import Timer from './components/Timer/Timer';
 import Schedule from './components/Schedule/Schedule';
 
 function App() {
-return (
+  return (
     <div className="App">
-      <Header/>
-      <Main/>
-      <Place/>
-      <OurStory/>
-      <Photo/>
-      <Schedule/>
-      <DressCode/>
-      <Wishes/>
-      <GeneralChat/>
-      <Meeting/>
-      <Timer/>
+      <div id='home'><Header /></div>
+      <div id="invitation"><Main /></div>
+      <div id="date"><Place /></div>
+      <div id="registration-place"><Meeting /></div>
+      <div id="registration-place"><Place /></div>
+      <div id="venue"><Place /></div>
+      <div id="our-story"><OurStory /></div>
+      <div id="happy-moments"><Photo /></div>
+      <div id="schedule"><Schedule /></div>
+      <div id="dress-code"><DressCode /></div>
+      <div id="wishes"><Wishes /></div>
+      <div id="chat"><GeneralChat /></div>
+      <div id="rsvp"><Meeting /></div>
+      <div id="countdown"><Timer /></div>
     </div>
   );
 }
