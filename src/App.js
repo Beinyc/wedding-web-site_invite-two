@@ -7,6 +7,7 @@ import Place from './components/place/place';
 import DressCode from './components/DressCode/DressCode';
 import Wishes from './components/Wishes/Wishes';
 import GeneralChat from './components/GeneralChat/GeneralChat';
+import Meeting from './components/Meeting/Meeting';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <DressCode/>
       <Wishes/>
       <GeneralChat/>
+      <Meeting/>
     </div>
   );
 }

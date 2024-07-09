@@ -1,0 +1,61 @@
+.meeting {
+    background-color: #f5f5f5;
+}
+
+.meeting__permissions {
+    margin: 0 auto;
+    max-width: 1050px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meeting__title {
+    color: #a78112;
+    font-size: 50px;
+    font-family: 'CormorantGaramond', Arial, sans-serif;
+    margin: 0;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    font-weight: normal;
+}
+
+.meeting__paragraph-up {
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin: 0;
+    padding-bottom: 50px;
+    font-weight: normal;
+    line-height: inherit;
+}
+
+.meeting__form-href {
+    display: flex;
+    width: 260px;
+    height: 60px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    border-width: 1px;
+    background-color: #a78112;
+    background-position: center center;
+    border-color: #8a8888;
+    border-style: solid;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.meeting__paragraph-down {
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.meeting__span {
+    color: rgb(167, 129, 18);
+}
