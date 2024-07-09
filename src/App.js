@@ -8,19 +8,23 @@ import DressCode from './components/DressCode/DressCode';
 import Wishes from './components/Wishes/Wishes';
 import GeneralChat from './components/GeneralChat/GeneralChat';
 import Meeting from './components/Meeting/Meeting';
+import Timer from './components/Timer/Timer';
+import Schedule from './components/Schedule/Schedule';
 
 function App() {
-  return (
+return (
     <div className="App">
       <Header/>
       <Main/>
       <Place/>
       <OurStory/>
       <Photo/>
+      <Schedule/>
       <DressCode/>
       <Wishes/>
       <GeneralChat/>
       <Meeting/>
+      <Timer/>
     </div>
   );
 }

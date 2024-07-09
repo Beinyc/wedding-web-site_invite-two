@@ -1,0 +1,98 @@
+.schedule {
+    max-width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.schedule-title {
+    color: #a78112;
+    font-size: 43px;
+    font-family: 'CormorantGaramond', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.event-titles {
+    font-size: 19px;
+    margin: 0;
+    color: #a78112;
+    font-family: 'CormorantGaramond', Arial, sans-serif;
+    margin-bottom: 5px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.schedule-date {
+    color: #000000;
+    font-size: 18px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 300;
+}
+
+.schedule-events {
+    position: relative;
+    padding-left: 40px;
+}
+
+.schedule-event {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    opacity: 0; /* Изначально скрываем элемент */
+    transition: opacity 0.6s ease-out; /* Плавный переход */
+}
+
+.schedule-event[data-aos='fade-up'].aos-animate {
+    opacity: 1; /* Показываем элемент при анимации */
+}
+
+.event-time {
+    font-size: 18px;
+    color: #000;
+    margin-right: 20px;
+    margin-left: 48px;
+    position: relative;
+    z-index: 1;
+    font-family: 'CormorantGaramond', Arial, sans-serif;
+    font-weight: 200;
+}
+
+.event-details {
+    max-width: 1000px;
+}
+
+.event-title {
+    font-size: 18px;
+    color: #8d6e3b;
+    margin-bottom: 5px;
+}
+
+.event-description {
+    font-size: 17px;
+    color: #555;
+    text-align: left;
+    font-family: 'CormorantGaramond', Arial, sans-serif;
+    font-weight: 200;
+}
+
+.schedule-events::before {
+    content: '';
+    position: absolute;
+    left: 24px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #ccc;
+}
+
+.schedule-event::before {
+    content: '';
+    position: absolute;
+    left: 17px;
+    width: 12px;
+    height: 12px;
+    background-color: #a78112;
+    border-radius: 50%;
+    z-index: 1;
+}
