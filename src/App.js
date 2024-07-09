@@ -6,6 +6,7 @@ import Photo from './components/Photo/Photo';
 import Place from './components/place/place';
 import DressCode from './components/DressCode/DressCode';
 import Wishes from './components/Wishes/Wishes';
+import GeneralChat from './components/GeneralChat/GeneralChat';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Photo/>
       <DressCode/>
       <Wishes/>
+      <GeneralChat/>
     </div>
   );
 }
