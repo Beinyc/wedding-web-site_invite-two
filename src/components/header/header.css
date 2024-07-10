@@ -159,3 +159,64 @@
     border-radius: 50%;
     z-index: 1;
 }
+
+@media(max-width:950px) {
+    .header__image-couple {
+        display: none;
+    }
+
+    .header {
+        background-image: url(../../images/1647038567_55-kartinkin-net-p-kartinki-dlya-par-69.jpg);
+        object-fit: cover;
+        background-position: center;
+    }
+
+    .header__cards {
+        all: unset;
+        display: flex;
+        flex-direction: column;
+        height: 93vh;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header__flex {
+        justify-content: center;
+    }
+
+    .header__hello-parafraph {
+        all: unset;
+        color: #ffffff;
+        font-size: 29px;
+        font-family: 'Montserrat', Arial, sans-serif;
+        font-weight: 450;
+    }
+
+    .header__title {
+        border-width: 1px;
+        width: 340px;
+        opacity: 0.8;
+        background-color: #ffffff;
+        background-position: center center;
+        border-color: #8a8888;
+        border-style: solid;
+    }
+
+    .header__permission {
+        padding-top: 50px;
+    }
+
+    .header__date-paragraph {
+        color: white;
+    }
+}
+
+@media(max-width:420px) {
+    .header__hello-parafraph {
+        font-size: 20px;
+    }
+
+    .header__title {
+        width: 280px;
+    }
+}
