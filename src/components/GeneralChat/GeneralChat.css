@@ -67,3 +67,31 @@
     align-items: center;
     justify-content: center;
 }
+
+@media(max-width: 860px) {
+    .general-chat__permissions {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .general-chat__title {
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+    .general-chat__paragrapg-up {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 480px) {
+    .general-chat__image {
+        width: 97%;
+        height: auto;
+    }
+
+    .general-chat__cart {
+        width: 97%;
+    }
+}

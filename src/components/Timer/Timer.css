@@ -4,6 +4,11 @@
     align-items: center;
     gap: 86px;
     height: 450px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    color: #fff;
 }
 
 .timer-segment {
@@ -34,4 +39,22 @@
     color: #000000;
     font-family: 'Montserrat', Arial, sans-serif;
     font-weight: 200;
+}
+
+@media(max-width: 572px) {
+    .timer-number {
+        font-size: 35px;
+    }
+
+    .timer {
+        gap: 45px;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+}
+
+#countdown {
+    display: flex;
+    flex-direction: column;
 }

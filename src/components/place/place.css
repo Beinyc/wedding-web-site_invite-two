@@ -191,3 +191,86 @@
     text-align: center;
     justify-content: center;
 }
+
+@media(max-width:975px) {
+    .place__image-bouquet {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .place__image-table {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .place__cart-registration-down {
+        left: 427px;
+    }
+}
+
+@media(max-width:860px) {
+    .place__cart-registration {
+        all: unset;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        margin: 0 auto;
+        border-width: 1px;
+        border-radius: 0px;
+        background-color: #ffffff;
+        background-position: center center;
+        border-color: #8a8888;
+        border-style: solid;
+        box-shadow: 0px 0px 10px 0px rgba(89, 88, 88, 0.6);
+    }
+
+    .place__cart-registration-down {
+        all: unset;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        margin: 0 auto;
+        border-width: 1px;
+        border-radius: 0px;
+        background-color: #ffffff;
+        background-position: center center;
+        border-color: #8a8888;
+        border-style: solid;
+        box-shadow: 0px 0px 10px 0px rgba(89, 88, 88, 0.6);
+    }
+
+    .place__image-bouquet {
+        width: 300px;
+        height: 300px;
+        background-size: cover;
+    }
+
+    .place__image-table {
+        width: 300px;
+        height: 300px;
+        background-size: cover;
+    }
+
+    .place__map-registration {
+        margin-bottom: 15px;
+    }
+
+    .place__cards-positions {
+        background-color: #f5f5f5;
+        margin-bottom: 70px;
+    }
+}
+
+@media(max-width:780px) {
+    .place__image-bouquet {
+        margin-top: 150px;
+    }
+}
+
+@media(max-width:470px) {
+    .place__image-bouquet {
+        margin-top: 250px;
+    }
+}

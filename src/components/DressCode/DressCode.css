@@ -11,9 +11,14 @@
 
 .dress-code__flex {
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
     padding-bottom: 75px;
+}
+
+.deress-code-flex-color {
+    display: flex;
+    width: 44%;
+    justify-content: space-between;
 }
 
 .dress-code__title {
@@ -21,10 +26,7 @@
     font-size: 43px;
     font-family: 'CormorantGaramond', Arial, sans-serif;
     line-height: 1.55;
-    font-weight: 700;
-    background-position: center center;
-    border-color: transparent;
-    border-style: solid;
+    font-weight: 500;
 }
 
 .dress-code__paragraph {
@@ -33,9 +35,6 @@
     font-family: 'Montserrat', Arial, sans-serif;
     line-height: 1.55;
     font-weight: 300;
-    background-position: center center;
-    border-color: transparent;
-    border-style: solid;
     padding-bottom: 80px;
 }
 
@@ -66,4 +65,31 @@
 
 .dress-code__six{
     background-color: #76853a;
+}
+
+@media(max-width:770px) {
+    .dress-code__flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .deress-code-flex-color {
+        margin-bottom: 20px;
+        width: 90%;
+        justify-content: space-evenly;
+    }
+
+    .dress-code__title {
+        font-size: 35px;
+    }
+
+    .dress-code__paragraph {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:575px) {
+    .dress-code__color {
+        
+    }
 }

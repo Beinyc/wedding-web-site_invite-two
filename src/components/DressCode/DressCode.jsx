@@ -18,12 +18,16 @@ export default function DressCode() {
           ваших образах.
         </p>
         <div className="dress-code__flex">
-          <div className="dress-code__color dress-code__one"></div>
-          <div className="dress-code__color  dress-code__two"></div>
-          <div className="dress-code__color dress-code__free"></div>
-          <div className="dress-code__color dress-code__four"></div>
-          <div className="dress-code__color dress-code__five"></div>
-          <div className="dress-code__color dress-code__six"></div>
+          <div className="deress-code-flex-color">
+            <div className="dress-code__color dress-code__one"></div>
+            <div className="dress-code__color  dress-code__two"></div>
+            <div className="dress-code__color dress-code__free"></div>
+          </div>
+          <div className="deress-code-flex-color">
+            <div className="dress-code__color dress-code__four"></div>
+            <div className="dress-code__color dress-code__five"></div>
+            <div className="dress-code__color dress-code__six"></div>
+          </div>
         </div>
       </div>
     </div>

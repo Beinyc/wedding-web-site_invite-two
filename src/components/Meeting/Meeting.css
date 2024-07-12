@@ -60,3 +60,22 @@
 .meeting__span {
     color: rgb(167, 129, 18);
 }
+
+@media(max-width: 780px) {
+    .meeting__title  {
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+    .meeting__paragraph-up {
+        font-size: 14px;
+    }
+
+    .meeting__paragraph-down {
+        font-size: 14px;
+    }
+
+    .meeting__form-href {
+        font-size: 14px;
+    }
+}

@@ -16,9 +16,9 @@ function App() {
     <div className="App">
       <div id='home'><Header /></div>
       <div id="invitation"><Main /></div>
-      <div id="date"><Place /></div>
-      <div id="registration-place"><Meeting /></div>
-      <div id="registration-place"><Place /></div>
+      <div id="date"></div>
+      <div id="registration-place"></div>
+      <div id="registration-place"></div>
       <div id="venue"><Place /></div>
       <div id="our-story"><OurStory /></div>
       <div id="happy-moments"><Photo /></div>

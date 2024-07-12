@@ -96,3 +96,31 @@
     border-radius: 50%;
     z-index: 1;
 }
+
+@media (max-width:680px) {
+    .schedule-title {
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+    .event-titles {
+        font-size: 14px;
+    }
+
+    .event-description {
+        font-size: 14px;
+    }
+
+    .event-time {
+        font-size: 14px;
+        margin-left: 34px;
+    }
+
+    .schedule-date {
+        font-size: 16px;
+    }
+
+    .schedule-events {
+        padding-left: 20px;
+    }
+}

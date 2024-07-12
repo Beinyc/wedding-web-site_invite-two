@@ -1,20 +1,38 @@
 .photo__permission {
     margin-top: 150px;
     margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
 }
 
 .photo__big {
-    width: 100%;
-    height: 1100px;
+    width: 97%;
     object-fit: cover;
 }
 
 .photo__flex {
     display: flex;
+    gap: 17px;
+    width: 95%;
+    align-items: center;
+    justify-content: center;
 }
 
 .photo__mini {
     width: 33%;
-    height: 400px;
+    max-height: 365px;
     object-fit: cover;
+}
+
+@media (max-width:480px) {
+    .photo__flex {
+        flex-direction: column;
+    }
+
+    .photo__mini {
+        width: 100%;
+        margin-top: 10px;
+    }
 }

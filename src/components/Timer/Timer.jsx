@@ -34,17 +34,6 @@ export default function Timer() {
 
     const timerStyle = {
         backgroundImage: `url(${backgroundImage})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-        padding: '20px',
-        borderRadius: '10px',
-        color: '#fff',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        gap: '86px',
-        height: '450px',
     };
 
     return (
