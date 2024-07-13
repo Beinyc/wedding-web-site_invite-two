@@ -28,9 +28,9 @@ export default function Header() {
           <ul className="sidebar__menu">
             <li><a href="#home">Главная</a></li>
             <li><a href="#invitation">Приглашение</a></li>
-            <li><a href="#date">Дата проведения</a></li>
+            {/* <li><a href="#date">Дата проведения</a></li>
             <li><a href="#registration-place">Место регистрации</a></li>
-            <li><a href="#venue">Место проведения</a></li>
+            <li><a href="#venue">Место проведения</a></li> */}
             <li><a href="#our-story">Наша история</a></li>
             <li><a href="#happy-moments">Счастливые моменты</a></li>
             <li><a href="#schedule">Расписание дня</a></li>
