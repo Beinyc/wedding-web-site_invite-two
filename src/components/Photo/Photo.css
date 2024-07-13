@@ -10,6 +10,7 @@
 .photo__big {
     width: 97%;
     object-fit: cover;
+    margin-bottom: 20px;
 }
 
 .photo__flex {
