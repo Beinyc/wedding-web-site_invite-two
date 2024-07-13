@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.e3bda283.css",
-    "main.js": "/static/js/main.1c01d6c2.js",
-    "static/media/scale_1200.png": "/static/media/scale_1200.9375e86d91493c00c612.png",
-    "static/media/cloup3.jpg": "/static/media/cloup3.04defc7b82c05732261d.jpg",
-    "static/media/calendar-of-august.png": "/static/media/calendar-of-august.494e7b19222ece6c6e90.png",
-    "static/media/photo__mini1.jpg": "/static/media/photo__mini1.867d71da3f93d7944782.jpg",
-    "static/media/photo__big.jpg": "/static/media/photo__big.d92d474b98dc04505f1c.jpg",
-    "static/media/head-icon.png": "/static/media/head-icon.789814f8c494dcb996f4.png",
-    "static/media/photo__mini2.jpg": "/static/media/photo__mini2.1a5fdc27b8db1fb29eb8.jpg",
-    "static/media/1647038567_55-kartinkin-net-p-kartinki-dlya-par-69.jpg": "/static/media/1647038567_55-kartinkin-net-p-kartinki-dlya-par-69.414cc63305ca9ff0f1c5.jpg",
-    "static/media/photo__mini3.jpg": "/static/media/photo__mini3.a852463bd78302cce252.jpg",
-    "static/media/table.jpg": "/static/media/table.7ae8ffd75642c848bad2.jpg",
-    "static/media/bouquet.jpg": "/static/media/bouquet.ce48ed7914075b2530d4.jpg",
-    "static/media/general-chat__imege.jpg": "/static/media/general-chat__imege.47c4824410eca86dd6da.jpg",
-    "static/media/timer.jpg": "/static/media/timer.63cf887379b641635669.jpg",
-    "static/media/img_51584.png": "/static/media/img_51584.7aabc0f99a742e47da38.png",
-    "index.html": "/index.html",
-    "main.e3bda283.css.map": "/static/css/main.e3bda283.css.map",
-    "main.1c01d6c2.js.map": "/static/js/main.1c01d6c2.js.map"
+    "main.css": "/wedding-web-site_invite-two/static/css/main.48214e7a.css",
+    "main.js": "/wedding-web-site_invite-two/static/js/main.11fa51ab.js",
+    "static/media/scale_1200.png": "/wedding-web-site_invite-two/static/media/scale_1200.9375e86d91493c00c612.png",
+    "static/media/cloup3.jpg": "/wedding-web-site_invite-two/static/media/cloup3.04defc7b82c05732261d.jpg",
+    "static/media/calendar-of-august.png": "/wedding-web-site_invite-two/static/media/calendar-of-august.494e7b19222ece6c6e90.png",
+    "static/media/photo__mini1.jpg": "/wedding-web-site_invite-two/static/media/photo__mini1.867d71da3f93d7944782.jpg",
+    "static/media/photo__big.jpg": "/wedding-web-site_invite-two/static/media/photo__big.d92d474b98dc04505f1c.jpg",
+    "static/media/head-icon.png": "/wedding-web-site_invite-two/static/media/head-icon.789814f8c494dcb996f4.png",
+    "static/media/photo__mini2.jpg": "/wedding-web-site_invite-two/static/media/photo__mini2.1a5fdc27b8db1fb29eb8.jpg",
+    "static/media/1647038567_55-kartinkin-net-p-kartinki-dlya-par-69.jpg": "/wedding-web-site_invite-two/static/media/1647038567_55-kartinkin-net-p-kartinki-dlya-par-69.414cc63305ca9ff0f1c5.jpg",
+    "static/media/photo__mini3.jpg": "/wedding-web-site_invite-two/static/media/photo__mini3.a852463bd78302cce252.jpg",
+    "static/media/table.jpg": "/wedding-web-site_invite-two/static/media/table.7ae8ffd75642c848bad2.jpg",
+    "static/media/bouquet.jpg": "/wedding-web-site_invite-two/static/media/bouquet.ce48ed7914075b2530d4.jpg",
+    "static/media/general-chat__imege.jpg": "/wedding-web-site_invite-two/static/media/general-chat__imege.47c4824410eca86dd6da.jpg",
+    "static/media/timer.jpg": "/wedding-web-site_invite-two/static/media/timer.63cf887379b641635669.jpg",
+    "static/media/img_51584.png": "/wedding-web-site_invite-two/static/media/img_51584.7aabc0f99a742e47da38.png",
+    "index.html": "/wedding-web-site_invite-two/index.html",
+    "main.48214e7a.css.map": "/wedding-web-site_invite-two/static/css/main.48214e7a.css.map",
+    "main.11fa51ab.js.map": "/wedding-web-site_invite-two/static/js/main.11fa51ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3bda283.css",
-    "static/js/main.1c01d6c2.js"
+    "static/css/main.48214e7a.css",
+    "static/js/main.11fa51ab.js"
   ]
 }
