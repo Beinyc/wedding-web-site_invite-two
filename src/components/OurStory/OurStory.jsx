@@ -11,7 +11,7 @@ export default function OurStory() {
           <div className="our-story__flex-cart">
             <h4 className="our-story__title">Наша история</h4>
             <p className="our-story__paragraph-up">
-              Мы с Мишей ездили на работу в одно время, в одной маршрутке, с
+              Мы с Артемом ездили на работу в одно время, в одной маршрутке, с
               разницей в одну остановку. Как-то раз он решился познакомиться со
               мной, но я отказала!)
               <br />
@@ -22,7 +22,7 @@ export default function OurStory() {
               экскурсии, знакомить со своими родителями. После этого мы больше
               не расставались)
             </p>
-            <p className="our-story__paragraph-down">Алиса, невеста</p>
+            <p className="our-story__paragraph-down">Маргарита, невеста</p>
           </div>
         </div>
       </div>

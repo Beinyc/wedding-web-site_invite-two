@@ -13,12 +13,12 @@ const Schedule = () => {
 
     const events = [
         {
-            time: '14:00',
+            time: '15:30',
             title: 'Сбор гостей и фуршет',
             description: 'Время пролетит незаметно за общением с другими гостями. Кроме того, ожидание скрасит приветственный фуршет.',
         },
         {
-            time: '17:00',
+            time: '16:00',
             title: 'Торжественная церемония',
             description: 'Пожалуй, самый трогательный момент этого дня. Молодожены обмениваются кольцами в окружении самых близких.',
         },
@@ -37,7 +37,7 @@ const Schedule = () => {
     return (
         <div className="schedule">
             <h1 className="schedule-title">Расписание дня</h1>
-            <p className="schedule-date">Воскресенье, 28 сентября</p>
+            <p className="schedule-date">Среда, 25 декабря</p>
             <div className="schedule-events">
                 {events.map((event, index) => (
                     <div className="schedule-event" key={index} data-aos="fade-up" data-aos-delay={index * 300}>

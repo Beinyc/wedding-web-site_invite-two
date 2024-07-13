@@ -1,6 +1,6 @@
 import "./main.css";
 
-import imageCloup from '../../images/cloup2.jpg'
+import imageCloup from '../../images/scale_1200.png'
 import imageCalendar from '../../images/calendar-of-august.png'
 import imageHeart from '../../images/head-icon.png'
 
@@ -19,7 +19,7 @@ export default function Main() {
         <div className="main__flex">
           <div className="main__card">
             <p className="main__paragraph-date">Дата проведения</p>
-            <p className="main__paragraph-august">Август</p>
+            <p className="main__paragraph-august">Декабрь</p>
             <img className="main__image-calendar" src={imageCalendar} alt="картинка календаря" />
             <img className="main__image-heart" src={imageHeart} alt="картинка выбранного числа(сердечко)" />
           </div>

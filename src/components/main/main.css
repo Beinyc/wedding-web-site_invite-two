@@ -76,8 +76,8 @@
     height: 35px;
     width: 35px;
     position: relative;
-    top: -139px;
-    left: 120px;
+    top: -87px;
+    left: 1px;
     animation: heartbeat 1s infinite;
 }
 

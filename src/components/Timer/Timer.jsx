@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Timer.css'; // Подключаем CSS файл
-import backgroundImage from '../../images/bouquet.jpg'; // Импортируем изображение
+import backgroundImage from '../../images/timer.jpg'; // Импортируем изображение
 
 export default function Timer() {
     const calculateTimeLeft = () => {

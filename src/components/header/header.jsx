@@ -1,14 +1,19 @@
 import "./header.css";
 import burgerIcon from "../../images/img_51584.png";
 import imageСouple from "../../images/1647038567_55-kartinkin-net-p-kartinki-dlya-par-69.jpg";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isLoaded, setIsLoaded] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+
+  useEffect(() => {
+    setIsLoaded(true);
+  }, []);
 
   return (
     <div className="header">
@@ -42,14 +47,14 @@ export default function Header() {
             src={imageСouple}
             alt="фотография молодожен"
           />
-          <div className="header__cards">
+          <div className={`header__cards ${isLoaded ? 'show' : ''}`}>
             <p className="header__hello-parafraph">Рады пригласить вас на нашу свадьбу!</p>
             <h1 className="header__title">
-              Никита&
+              Артем&
               <br />
-              Виктория
+              Маргарита
             </h1>
-            <p className="header__date-paragraph">10/08/24</p>
+            <p className="header__date-paragraph">25/11/24</p>
           </div>
         </div>
       </div>
