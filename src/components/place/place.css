@@ -1,13 +1,11 @@
 .place {
-    margin: 0 auto;
     background-color: #f5f5f5;
-    height: 80vh;
+    margin-top: 100px;
 }
 
 .place__permission {
-    max-width: 1050px;
     margin: 0 auto;
-    padding-top: 100px;
+    max-width: 1050px;
 }
 
 .place__image-bouquet {
@@ -94,11 +92,6 @@
     position: relative;
     top: -436px;
     left: 833px;
-}
-
-.place__cards-positions {
-    height: 0;
-    padding-bottom: 700px;
 }
 
 .place__cart-holiday {
@@ -201,6 +194,7 @@
     .place__image-table {
         width: 95%;
         margin: 0 auto;
+        margin-top: 70px;
     }
 
     .place__cart-registration-down {
@@ -260,17 +254,5 @@
     .place__cards-positions {
         background-color: #f5f5f5;
         margin-bottom: 70px;
-    }
-}
-
-@media(max-width:780px) {
-    .place__image-bouquet {
-        margin-top: 150px;
-    }
-}
-
-@media(max-width:470px) {
-    .place__image-bouquet {
-        margin-top: 250px;
     }
 }

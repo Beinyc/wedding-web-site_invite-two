@@ -4,7 +4,7 @@ import backgroundImage from '../../images/timer.jpg'; // Импортируем 
 
 export default function Timer() {
     const calculateTimeLeft = () => {
-        const targetDate = new Date("2024-08-10T23:59:59"); // Установи свою дату здесь
+        const targetDate = new Date("2024-11-25T23:59:59"); // Установи свою дату здесь
         const now = new Date();
         const difference = targetDate - now;
 

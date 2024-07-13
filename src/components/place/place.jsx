@@ -8,29 +8,27 @@ export default function Place() {
   return (
     <div className="place">
       <div className="place__permission">
-        <div className="place__cards-positions">
-          <div className="place__image-bouquet" />
-          <div className="place__cart-registration">
-            <h3 className="place__cart-title">Место регистрации</h3>
-            <p className="place__cart-paragraph_up">
-              ЗАГС
-              <br />
-              «Дворец бракосочетания»
-              <br />
-              1, микрорайон Надежда
-            </p>
-            <p className="place__cart-paragraph_up">
-              Торжественная церемония в 16:00
-            </p>
-            <a
-              className="place__map-registration"
-              href="https://yandex.ru/maps/-/CDGN6K6T"
-            >
-              Открыть карту
-            </a>
-          </div>
+      <div className="place__image-bouquet" />
+        <div className="place__cart-registration">
+          <h3 className="place__cart-title">Место регистрации</h3>
+          <p className="place__cart-paragraph_up">
+            ЗАГС
+            <br />
+            «Дворец бракосочетания»
+            <br />
+            1, микрорайон Надежда
+          </p>
+          <p className="place__cart-paragraph_up">
+            Торжественная церемония в 16:00
+          </p>
+          <a
+            className="place__map-registration"
+            href="https://yandex.ru/maps/-/CDGN6K6T"
+          >
+            Открыть карту
+          </a>
         </div>
-        <div className="place__cards-positions">
+
           <div className="place__image-table" />
           <div className="place__cart-registration-down">
             <h3 className="place__cart-title">Место проведения</h3>
@@ -49,7 +47,7 @@ export default function Place() {
               Открыть карту
             </a>
           </div>
-        </div>
+        
       </div>
     </div>
   );
