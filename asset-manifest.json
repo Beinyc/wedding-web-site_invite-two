@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/wedding-web-site_invite-two/static/css/main.44d9d47b.css",
+    "main.css": "/wedding-web-site_invite-two/static/css/main.d492d3c8.css",
     "main.js": "/wedding-web-site_invite-two/static/js/main.11fa51ab.js",
     "static/media/scale_1200.png": "/wedding-web-site_invite-two/static/media/scale_1200.9375e86d91493c00c612.png",
     "static/media/cloup3.jpg": "/wedding-web-site_invite-two/static/media/cloup3.04defc7b82c05732261d.jpg",
@@ -17,11 +17,11 @@
     "static/media/timer.jpg": "/wedding-web-site_invite-two/static/media/timer.63cf887379b641635669.jpg",
     "static/media/img_51584.png": "/wedding-web-site_invite-two/static/media/img_51584.7aabc0f99a742e47da38.png",
     "index.html": "/wedding-web-site_invite-two/index.html",
-    "main.44d9d47b.css.map": "/wedding-web-site_invite-two/static/css/main.44d9d47b.css.map",
+    "main.d492d3c8.css.map": "/wedding-web-site_invite-two/static/css/main.d492d3c8.css.map",
     "main.11fa51ab.js.map": "/wedding-web-site_invite-two/static/js/main.11fa51ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.44d9d47b.css",
+    "static/css/main.d492d3c8.css",
     "static/js/main.11fa51ab.js"
   ]
 }
