@@ -10,6 +10,7 @@ import GeneralChat from './components/GeneralChat/GeneralChat';
 import Meeting from './components/Meeting/Meeting';
 import Timer from './components/Timer/Timer';
 import Schedule from './components/Schedule/Schedule';
+import Company from './components/company/company'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <div id="chat"><GeneralChat /></div>
       <div id="rsvp"><Meeting /></div>
       <div id="countdown"><Timer /></div>
+      <div><Company/></div>
     </div>
   );
 }
