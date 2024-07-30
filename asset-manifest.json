@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wedding-web-site_invite-two/static/css/main.f57a74d5.css",
-    "main.js": "/wedding-web-site_invite-two/static/js/main.ddd0a531.js",
+    "main.css": "/wedding-web-site_invite-two/static/css/main.40e13ae3.css",
+    "main.js": "/wedding-web-site_invite-two/static/js/main.aa3ef26b.js",
     "static/media/scale_1200.png": "/wedding-web-site_invite-two/static/media/scale_1200.9375e86d91493c00c612.png",
     "static/media/cloup3.jpg": "/wedding-web-site_invite-two/static/media/cloup3.04defc7b82c05732261d.jpg",
     "static/media/calendar-of-august.png": "/wedding-web-site_invite-two/static/media/calendar-of-august.494e7b19222ece6c6e90.png",
@@ -16,12 +16,13 @@
     "static/media/general-chat__imege.jpg": "/wedding-web-site_invite-two/static/media/general-chat__imege.47c4824410eca86dd6da.jpg",
     "static/media/timer.jpg": "/wedding-web-site_invite-two/static/media/timer.63cf887379b641635669.jpg",
     "static/media/img_51584.png": "/wedding-web-site_invite-two/static/media/img_51584.7aabc0f99a742e47da38.png",
+    "static/media/company.jpg": "/wedding-web-site_invite-two/static/media/company.7e61ad695694d92f708e.jpg",
     "index.html": "/wedding-web-site_invite-two/index.html",
-    "main.f57a74d5.css.map": "/wedding-web-site_invite-two/static/css/main.f57a74d5.css.map",
-    "main.ddd0a531.js.map": "/wedding-web-site_invite-two/static/js/main.ddd0a531.js.map"
+    "main.40e13ae3.css.map": "/wedding-web-site_invite-two/static/css/main.40e13ae3.css.map",
+    "main.aa3ef26b.js.map": "/wedding-web-site_invite-two/static/js/main.aa3ef26b.js.map"
   },
   "entrypoints": [
-    "static/css/main.f57a74d5.css",
-    "static/js/main.ddd0a531.js"
+    "static/css/main.40e13ae3.css",
+    "static/js/main.aa3ef26b.js"
   ]
 }
